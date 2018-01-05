@@ -20,9 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //TODO: Initialise and Configure your Firebase here:
         
         FirebaseApp.configure()
-        let myDataBase = Database.database().reference()
+//        let myDataBase = Database.database().reference()
         
-        myDataBase.setValue("Helloo FireBase")
+//        myDataBase.setValue("Helloo FireBase")
         
         
         return true
